@@ -1,0 +1,19 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "main": "src/cli.js",
+  "type": "module",
+  "bin": {
+    "task-cli": "src/cli.js"
+  },
+  "scripts": {
+    "dev": "node src/task-tracker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "inquirer": "^12.3.2"
+  }
+}
